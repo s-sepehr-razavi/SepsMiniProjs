@@ -22,3 +22,7 @@
 
 **Objective**: To implement a byte-level Byte Pair Encoding (BPE) tokenizer for efficient tokenization of text at the byte level.  
 **Details**: Inspired by subword tokenization techniques, this tokenizer operates on raw byte sequences, splitting input text into smaller, more manageable subword units. The BPE algorithm merges frequently occurring byte pairs in the corpus, iteratively building a vocabulary. The model is designed to handle diverse character sets and languages, making it highly versatile for tasks like language modeling and machine translation, where managing rare tokens efficiently is crucial.
+
+### ALittleFuzzy
+
+A small module for performing fuzzy inference with its journal.
